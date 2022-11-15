@@ -20,21 +20,21 @@ const RepoItem = ({ repo }) => {
           </a>
         </h3>
         <p className="mb-4">{description}</p>
-        <div>
-          <div className="mr-2 badge badge-info badge-lg">
-            <FaEye className="mr-2" />
+        <div className="flex items-center gap-3">
+          <div className="badge badge-info badge-lg">
+            <FaEye />
             {watchers_count}
           </div>
-          <div className="mr-2 badge badge-success badge-lg">
-            <FaStar className="mr-2" />
+          <div className="badge badge-success badge-lg">
+            <FaStar />
             {stargazers_count}
           </div>
-          <div className="mr-2 badge badge-error badge-lg">
-            <FaInfo className="mr-2" />
+          <div className="badge badge-error badge-lg">
+            <FaInfo />
             {open_issues}
           </div>
-          <div className="mr-2 badge badge-warning badge-lg">
-            <FaUtensils className="mr-2" />
+          <div className="badge badge-warning badge-lg">
+            <FaUtensils />
             {forks}
           </div>
         </div>
