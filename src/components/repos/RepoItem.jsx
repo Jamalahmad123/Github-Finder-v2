@@ -20,7 +20,7 @@ const RepoItem = ({ repo }) => {
           </a>
         </h3>
         <p className="mb-4">{description}</p>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <div className="badge badge-info badge-lg">
             <FaEye />
             {watchers_count}
